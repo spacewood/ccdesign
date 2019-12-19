@@ -277,17 +277,17 @@ b, strong {
 }
 
 ::-moz-selection {
-  background: #E93A7D;
+  background: #64FFDA;
   color: #121212;
 }
 
 ::-webkit-selection {
-  background: #E93A7D;
+  background: #64FFDA;
   color: #121212;
 }
 
 ::selection {
-  background: #E93A7D;
+  background: #64FFDA;
   color: #121212;
 }
 

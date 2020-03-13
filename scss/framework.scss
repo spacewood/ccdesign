@@ -571,6 +571,14 @@ select{
 	border:0;
 	outline:none;
 	color:$color_main;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+	&::-ms-expand { 
+		display: none;
+	}
 	&.color-white{
 		color:$color_white;
 		background-image:url(../i/fa-angle-down-white.png);
